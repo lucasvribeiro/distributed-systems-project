@@ -1,8 +1,13 @@
 # Projeto de Sistemas Distribuídos
 
-## Tema
-Jogo com palpites de eventos em jogos de futebol. Cada palpite correto dá ao jogador uma pontuação.
-Serão criadas temporadas definidas temporalmente. Os pontos acumulados pelos jogadores pertencem à uma temporada. Ao final da temporada, um jogador é declarado vencedor (maior pontuação), e uma nova temporada se inica com todas as pontuações zeradas.
+## Tema e Requisitos
+Sistema web para visualização de jogos de futebol (jogos passados, ao vivo e próximos jogos).
+Também será possível marcar como favorito um determinado jogo e receber notificações sobre eventos acontecidos na partida (início, gols e fim de jogo/placar final).
+
+Haverá uma tela para visualização dos jogos. Os jogos serão separados por competição e dentro de cada competição, separados por rodada.
+Desta forma, um jogo poderá ser favoritado, aparecendo no menu de favoritos.
+
+OBS: A título de simplificação, serão utilizadas competições específicas e rodadas específicas.
 
 ## Autor
 A equipe de desenvolvimento deste projeto é formada apenas pelo aluno Lucas Vinicius Ribeiro.
@@ -10,7 +15,8 @@ A equipe de desenvolvimento deste projeto é formada apenas pelo aluno Lucas Vin
 ## Tecnologias/API
 Para desenvolvimento, será utilizado os frameworks React e Node.
 
-Além disso, será utilziada como fonte de informações a API: *a definir*.
+Para obter as informações dos jogos será utilizada a API **[football-data](https://www.football-data.org/)**.
+Além disso, 
 
 ## Arquitetura e Funcionalidades
-A arquitetura do projeto será a arquitetura: cliente/servidor.
+Ao favoritar um jogo, o usuário passa a ser inscrito no tópico daquele jogo que estão sendo publicadas em um broker.
