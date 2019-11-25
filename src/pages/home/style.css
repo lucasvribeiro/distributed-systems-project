@@ -1,0 +1,27 @@
+.main-tab{
+    background-color: #FAFDFA;
+    color: #545454;
+    /* color: white; */
+    width: 60%;
+    height: 40vw;
+    top: 35px;
+    bottom: 5%;
+    padding: 10px;
+    left: 20%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.ant-tabs-nav {
+    text-align: center;
+}
+
+.fav-icon {
+    font-size: 24px;
+}
+
+.ball-icon{
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+}
