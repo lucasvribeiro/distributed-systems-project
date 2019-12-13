@@ -15,6 +15,10 @@ A equipe de desenvolvimento deste projeto é formada apenas pelo aluno Lucas Vin
 ## Arquitetura e Funcionalidades
 Ao favoritar um jogo, o usuário passa a ser inscrito no tópico daquele jogo que estão sendo publicadas em um broker. Para isso, foi utilizado o CloudMQTT como broker. A escolha do mesmo se deu por conta do conhecimento prévio do autor sobre como utilizar tal protocolo/broker.
 
+<p align="center">
+  <img src="arquitetura.png"/>
+</p>
+
 ## Tecnologias/API
 Para desenvolvimento, foi utilizado os frameworks ReactJS e Node.
 
