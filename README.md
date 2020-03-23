@@ -1,27 +1,31 @@
-# Soccer Games - Real-time goals notification
+# Soccer Games
 
-## Tema e Requisitos
-Sistema web para visualização de jogos de futebol (jogos passados, ao vivo e próximos jogos) separados por campeonatos.
-Também será possível marcar como **favorito** um determinado jogo e receber notificações de gols durante a partida.
+## Description
 
-Haverá uma tela para visualização dos jogos. Os jogos serão separados por competição e dentro de cada competição, separados por rodada.
-Desta forma, um jogo poderá ser *favoritado*, aparecendo no menu de favoritos.
+This project was developed for the discipline of distributed systems.
 
-OBS: Por razões de limitação da api utilizada para coletar as informações dos jogos, foram consideradas para o escopo desta aplicação, jogos das seguintes competições: Brasileirão, Campeonato Inglês, Espanhol, Italiano, Alemão e Francês.
+**Soccer Games** is a web system for responding to football matches (past, live and upcoming matches) separated by competitions.
+It will also be possible to **favorite** a game and receive notifications of goals during the match.
 
-## Autor
-A equipe de desenvolvimento deste projeto é formada apenas pelo aluno Lucas Vinicius Ribeiro.
+There will be a screen for game responses. The games will be separated by competition and within each competition, separated by round.
+In this way, a game can be *favorited*, appearing in the favorites menu.
 
-## Arquitetura e Funcionalidades
-Ao favoritar um jogo, o usuário passa a ser inscrito no tópico daquele jogo que estão sendo publicadas em um broker. Para isso, foi utilizado o CloudMQTT como broker. A escolha do mesmo se deu por conta do conhecimento prévio do autor sobre como utilizar tal protocolo/broker.
+NOTE: For reasons of limits from the application used to collect information about games, were considered the following competitions: Brasileirão, English Championship, Spanish, Italian, German and French.
+
+## Architecture and Features
+
+When a game is a favorite, the user passes a registration on the topic being registered with a broker. For this, CloudMQTT was used as a broker. The choice was made due to the author's prior knowledge on how to use the protocol / broker.
 
 <p align="center">
   <img src="arquitetura.png"/>
 </p>
 
-## Tecnologias/API
+## Technologies/API
 Para desenvolvimento, foi utilizado os frameworks ReactJS e Node.
 
-Para obter as informações dos jogos foi utilizada a API **[football-data](https://www.football-data.org/)**.
+For getting game information, it was used the **[football-data](https://www.football-data.org/)** API.
 
-## [Exemplo de funcionamento](https://drive.google.com/open?id=1-VcM325butY1-deP4rcvr40j-DEaxt7J).
+
+## [Sample video](https://drive.google.com/open?id=1-VcM325butY1-deP4rcvr40j-DEaxt7J).
+
+**[⚽  Access the Soccer Games](https://soccergames.netlify.com/)**
