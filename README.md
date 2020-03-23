@@ -21,11 +21,10 @@ When a game is a favorite, the user passes a registration on the topic being reg
 </p>
 
 ## Technologies/API
-Para desenvolvimento, foi utilizado os frameworks ReactJS e Node.
 
+The technologies used were: ReactJS, NodeJS, HTML5 and CSS3.
 For getting game information, it was used the **[football-data](https://www.football-data.org/)** API.
 
 
-## [Sample video](https://drive.google.com/open?id=1-VcM325butY1-deP4rcvr40j-DEaxt7J).
-
-**[⚽  Access the Soccer Games](https://soccergames.netlify.com/)**
+**[⚽ Sample video](https://drive.google.com/open?id=1-VcM325butY1-deP4rcvr40j-DEaxt7J)**
+**[⚽ Access the Soccer Games](https://soccergames.netlify.com/)**
