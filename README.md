@@ -1,4 +1,4 @@
-# Projeto de Sistemas Distribuídos
+# Soccer Games - Real-time goals notification
 
 ## Tema e Requisitos
 Sistema web para visualização de jogos de futebol (jogos passados, ao vivo e próximos jogos) separados por campeonatos.
